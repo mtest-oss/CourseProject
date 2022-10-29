@@ -1,6 +1,6 @@
-                                              **CS410 Text Information Systems
+                                              **CS410 Text Information Systems**
                                               Final Project Proposal
-**
+
 
 
 Team Members:
