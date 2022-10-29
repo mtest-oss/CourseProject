@@ -1,5 +1,5 @@
                                               #CS410 Text Information Systems
-                                              #Final Project Proposal
+                                              Final Project Proposal
 
 
 
