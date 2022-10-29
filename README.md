@@ -5,10 +5,10 @@
 
 ## Team Members:
 
-Name	Netid	
-Manasa Gangaiah	manasag3@illinois.edu | Captain
-Sudhir Ponnachana	sudhirp2@illinois.edu
-
+| Name	              | Netid	                |                   |
+|---------------------|-----------------------|-------------------|
+| Manasa Gangaiah	    | manasag3@illinois.edu | Captain           |
+| Sudhir Ponnachana	  | sudhirp2@illinois.edu |                   |
 
 
 ## What topic have you chosen? Why is it a problem? How does it relate to the theme and to the class?
