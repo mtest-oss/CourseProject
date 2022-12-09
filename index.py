@@ -97,14 +97,6 @@ def index():
     query = request.query['query']
     return template(open('website/search.html').read(), results=search(query))
 
-@app.route('/css/<filename>')
-def server_static(filename):
-    return static_file(filename, root='website/css')
-
-@app.route('/js/<filename>')
-def server_static(filename):
-    return static_file(filename, root='website/js')
-    
 @app.route('/images/<filename>')
 def server_static(filename):
     return static_file(filename, root='website/images')
