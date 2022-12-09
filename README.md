@@ -53,5 +53,12 @@ Planned activities for the project,
 6.	Documentation and review. Effort would be around 6 hours.
 7.	Project power point and Video of the project. 2 hours.
 
+## Final Report, Document, Video
+Code : https://github.com/mtest-oss/CourseProject
+Video Presentation: https://drive.google.com/drive/folders/1E1xOiTwMJA50RPpPLp1ryej23q6j4DdF
+Tutorial/Presentation: https://github.com/mtest-oss/CourseProject/blob/main/CS410%20Final%20Project%20Tutorial%20Presentation.pptx
+
+Document: https://github.com/mtest-oss/CourseProject/blob/main/CS410_ProjectFinalReport.pdf
+
 
 
