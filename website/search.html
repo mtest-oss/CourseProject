@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 5px;
+		}
+		.column {
+			float: left;
+			width: 50%;
+			padding: 20px;
+			height: 400px;
+		}
+		.search-result:hover {
+			background-color: rgba(192, 255, 182, 0.3);
+			border: 1px solid darkgreen;
+			border-radius: 8px;
+		}
+		.search-result-break: {
+			background-color: rgba(192, 255, 182, 0.3);
+		}
+	</style>
+    <title>Video Search results</title>	
+  </head>
+  <body>
+	<a href="/"><h2 style="color: white; text-align: center;">home</h2></a>
+	<ul>
+		% for row in results:
+			<div class="search-result">
+				<table>
+					<tr>
+						<td>
+							<video preload="meta" id="{{row['titleindex']}} " width="320" height="200" controls>
+								<source src="{{row['url']}}?svalue={{row['summary']}}&vvalue={{row['data']}}#t={{row['summary']}}" type="video/mp4">
+							</video>
+							<!-- <script> -->
+							  <!-- window.onload = function () {  -->
+								<!-- var vid = document.getElementById("{{row['titleindex']}}"); -->
+								<!-- vid.onplay = function() { -->
+									<!-- console.log("play on ") -->
+									<!-- vid.src="{{row['url']}}?svalue={{row['summary']}}&vvalue={{row['data']}}&view=1#t={{row['summary']}}"; -->
+									<!-- console.log(vid.src) -->
+								<!-- } -->
+							  <!-- } -->
+							<!-- </script> -->
+						</td>
+						<td>
+							<div class="search-result-heading">
+							  <a href="{{row['url']}}?svalue={{row['summary']}}&vvalue={{row['data']}}&view=1#t={{row['summary']}}"><span>{{row['title']}}</span></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<div name="emptyspace"> </div>
+			</div>
+		% end
+	</ul>
+</body>
+</html>

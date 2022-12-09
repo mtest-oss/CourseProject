@@ -1,1 +1,54 @@
+<html>
+<style>
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-image: url('images/search_glass.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 30px;
+}
 
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: none no-repeat scroll 0 0 #fff;
+  padding: 20px;
+}
+
+</style>
+
+<body style="font-family: sans-serif;" background="images/bg.jpg">
+	<div>
+		<img src="images/logo.png" style="width: 25%; height: auto; display: block;margin-left: auto; margin-right: auto; padding-bottom: 40px;">
+	</div>
+	<div>
+		<form action="/search" method="get" id="searchform">
+			<input id="search" name="query" type="text" placeholder="Search your Video frames using text and type enter"/>
+			<div style="text-align: center;">
+				<span class="info" style="color:grey;">e.g. Vector Space Model, NLP, Ranked list</span>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
