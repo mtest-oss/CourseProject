@@ -56,6 +56,7 @@ Planned activities for the project,
 ## Final Report, Document, Video
 Code : https://github.com/mtest-oss/CourseProject
 Video Presentation: https://drive.google.com/drive/folders/1E1xOiTwMJA50RPpPLp1ryej23q6j4DdF
+Video Presentation: Can also been seen: https://www.youtube.com/watch?v=AK1g7bZBtU0
 Tutorial/Presentation: https://github.com/mtest-oss/CourseProject/blob/main/CS410%20Final%20Project%20Tutorial%20Presentation.pptx
 
 Document: https://github.com/mtest-oss/CourseProject/blob/main/CS410_ProjectFinalReport.pdf
